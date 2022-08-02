@@ -330,6 +330,11 @@ section, footer {
   justify-content: space-between;
   width: 100%;
 }
+@media (min-width: 992px) {
+  .hero-section .search-form {
+    justify-content: center;
+  }
+}
 .hero-section .search-form i {
   font-size: 40px;
   color: rgba(255, 255, 255, 0.7);
